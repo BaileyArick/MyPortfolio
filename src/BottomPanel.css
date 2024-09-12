@@ -1,0 +1,47 @@
+.bot-panel-box{
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
+    width: 100%;
+    bottom: 0;
+}
+.bot-panel-box hr{
+    width: 75%;
+    color: rgb(53, 53, 53);
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: auto;
+}
+.socials-list{
+    display: flex;
+    list-style: none;
+    margin: 15px;
+}
+.socials p{
+    margin-top: 10px;
+    color: rgb(127, 127, 127);
+}
+.copyright-banner{
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+.icon{
+    background-color: rgba(0, 145, 255, 0.838);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+}
+.icon-item{
+    margin: 10px;
+}

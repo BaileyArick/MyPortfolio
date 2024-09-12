@@ -1,0 +1,42 @@
+.education{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding-top: 15%;
+}
+.school-list{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(1, 50%);
+    justify-content: center;
+    margin-top: 25px;
+}
+.school{
+    margin-left: 50px;
+}
+.education h1{
+    font-size: 3rem;
+}
+.year{ color:rgba(0, 145, 255, 0.838);}
+.studied{ 
+    color: rgb(127, 127, 127);
+    font-size: 1.5rem;
+}
+.name{ 
+    font-size: 1.3rem; 
+}
+@media screen and (max-width: 786px) {
+    .education{
+        height: auto;
+    }
+    .school-list{
+        display: grid;
+        grid-template-columns: repeat(1, 50%);
+        grid-template-rows: repeat(2, 50%);
+    }
+    .school{
+        margin-top: 15px;
+    }
+}

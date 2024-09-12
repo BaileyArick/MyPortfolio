@@ -1,0 +1,109 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(1, 50%);
+    padding-top: 100px;
+    align-items: center;
+    align-content: space-evenly;
+    justify-items: center;
+    justify-content: space-evenly;
+    height: 75vh;
+}
+.left{
+    display: flex;
+    justify-content: end;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    
+}
+.grid-item{
+    width: 90%;
+    margin: 0;
+}
+.grid-item img{
+    border-radius: 50%;
+    height: 80%;
+    width: 80%;
+}
+.grid-item h2{
+    font-size: 2rem;
+}
+.grid-item p {
+    color:rgba(0, 145, 255, 0.838);
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.list-item {
+    font-size: 1.2rem;
+    list-style: inside disc;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.list-item::marker{
+    color: white;
+    color:rgba(0, 145, 255, 0.838);
+}
+.grid a {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.5s;
+}
+.grid a:hover{
+    transition: 0.5s;
+    color: rgba(0, 145, 255, 0.838);
+}
+.text-box{
+    background-color: rgba(73, 73, 73, 0.452);
+    width: auto;
+}
+#degree{
+    font-style: bold;
+    font-weight: 600;
+    color: rgb(151, 151, 151);
+    font-size: 1.2rem;
+}
+#school{
+    font-style: italic;
+    font-size: 1.2rem;
+}
+#resume-btn{
+    font-size: 1rem;
+    font-family: inherit;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid rgba(0, 145, 255, 0.838);
+}
+#resume-btn:hover{
+    background-color: rgb(53, 53, 53);
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+@media screen and (max-width: 786px) {
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(1, 50%);
+        grid-template-rows: repeat(2, 50%);
+        height: auto;
+    }
+    .grid-item{
+        width: 100%;
+    }
+    .grid-item img{
+        height: 300px;
+        width: 300px;
+    }
+    .right{
+        align-items: center;
+    }
+    .left{
+        align-items: center;
+    }
+    
+}
