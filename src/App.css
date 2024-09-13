@@ -13,7 +13,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     height: 60px;
     position: fixed;
     top: 0;
@@ -24,7 +24,6 @@ body{
 .navbar-list{
     display: flex;
     list-style: none;
-    margin-right: 100px;
 }
 .navbar-link {
     text-decoration: none;
@@ -57,6 +56,9 @@ body{
     transition: 0.5s;
 }
 @media screen and (max-width: 768px) {
+    .navbar{
+        justify-content: space-evenly;
+    }
     #navbar-name{
         display: none;
     }

@@ -52,7 +52,7 @@
 
 @media screen and (max-width: 786px) {
     .skills-list{
-        width: 500px;
+        width: 75%;
         padding-left: 30px;
     }
     

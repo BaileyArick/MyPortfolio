@@ -90,7 +90,8 @@ ul{
         display: grid;
         grid-template-columns: repeat(1, 50%);
         grid-template-rows: repeat(2, 50%);
-        height: auto;
+        height: 100vh;
+        width: 100%;
     }
     .grid-item{
         width: 100%;
@@ -101,9 +102,11 @@ ul{
     }
     .right{
         align-items: center;
+        
     }
     .left{
         align-items: center;
+        justify-content: center;
     }
     
 }

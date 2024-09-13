@@ -1,5 +1,4 @@
 import './App.css'
-import './navbarh.css'
 import Welcome from './Welcome.jsx'
 import About from './About.jsx'
 import Summary from './Summary.jsx'

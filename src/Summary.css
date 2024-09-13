@@ -25,6 +25,9 @@
     font-size: 1.5rem;
 }
 @media screen and (max-width: 786px) {
+    .summary{
+        height: 100vh;
+    }
     .summary-info{
         width: 90%;
     }
